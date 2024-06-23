@@ -1,0 +1,23 @@
+body {
+  font-family: "Arial", "sans-serif";
+}
+
+.title-h2 {
+  text-align: center;
+  color: #333;
+}
+
+.div-formulario {
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+#form-aeroporto {
+  align-self: center;
+  margin: 0 auto;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"content="IE=edge">
+  <link rel="stylesheet" href="styles/index.css"> 
+  <title>Companhia Aérea</title>
+</head>
+
+<body>
+  <h2 class="title-h2">Cadastrando uma companhia aérea</h2>
+  <div class="div-formulario">
+    <form action="HcompanhiaAerea.php" method="get" id="form-aeroporto">
+        <label>Insira o código: </label><br>
+        <input name="codigo" type="text"> </input><br><br>
+        <label>Insira o nome: </label><br>
+        <input name="nome" type="text"> </input><br><br>
+        <label>Insira a razão social: </label><br>
+        <input name="razao" type="text"> </input><br><br>
+        <label>Insira o CNPJ: </label><br>
+        <input name="cnpj" type="text"> </input><br><br>
+        <label>Insira a sigla: </label><br>
+        <input name="sigla" type="text"> </input><br><br>
+        <label>Insira o preço padrão da bagagem: </label><br>
+        <input name="bagagem" type="number" step="0.01" min="0"> </input><br><br>
+        <button type="submit">Cadastrar</button>
+        <p>Para voltar ao início, clique <a href="index.html">aqui.</a></p>
+    </form>
+  </div>
+</body>
